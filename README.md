@@ -3,7 +3,10 @@ There are some important tasks that need to be carried out when working with [Pi
 * Clearing report data from the UI
 * Setting a dashboard layout for all users, or a subset
 
-This module provides a CLI (thanks to [Commander](https://www.npmjs.com/package/commander)!) which simplifies these tasks
+This module provides a CLI (thanks to [Commander](https://www.npmjs.com/package/commander)!) which simplifies these tasks.
+
+It was developed to assist with work being carried out in [the OPENi project](http://www.openi-ict.eu/). For our use case each user of the platform has their own site,
+the name of which is set to their login name, e.g. *user@openi.com*.
 
 ````
 $ node lib/main.js --help
