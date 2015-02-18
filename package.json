@@ -8,6 +8,10 @@
   },
   "author": "Philip O'Brien",
   "keywords": "piwik",
+  "preferGlobal": "true",
+  "bin": {
+    "piwik-admin" : "lib/main.js"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
