@@ -9,7 +9,7 @@ It was developed to assist with work being carried out in <a href="http://www.op
 For our use case each user of the platform has their own site, the name of which is set to their login name, e.g. *user<span>@openi.com*.
 
 ### Config
-Create a config file `config.js` with the following structure, including your Piwik adming token, and the corresponding Piwik domain
+Create a config file `config.js` with the following structure
 
 ```json
 var config = {};
