@@ -35,7 +35,8 @@ $ node lib/main.js copy --help
 
     -h, --help              output usage information
     -t, --template [login]  Which dashboard template to use
-    -u, --users [logins]    Which users to apply template to, if not specified it defaults to all users
+    -u, --users [logins]    Which users to apply template to,
+                            if not specified it defaults to all users
     -i, --ignore [logins]   Which users to ignore
 
   Examples:
