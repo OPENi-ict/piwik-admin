@@ -35,14 +35,14 @@ $ node lib/main.js copy --help
 
     -h, --help              output usage information
     -t, --template [login]  Which dashboard template to use
-    -u, --users [logins]    Which users to apply template to
+    -u, --users [logins]    Which users to apply template to, if not specified it defaults to all users
     -i, --ignore [logins]   Which users to ignore
 
   Examples:
 
     $ copy -t admin
+    $ copy -t admin -u test@openi.com,test2@openi.com
     $ copy -t admin -i test@openi.com
-    $ copy -t admin -u test@openi.com
 ````
 
 ### Reset Dashboard Data
@@ -57,7 +57,7 @@ $  node lib/main.js reset --help
   Options:
 
     -h, --help            output usage information
-    -s, --sites [logins]  Which sites to reset
+    -s, --sites [logins]  Which sites to reset, if not specified it defaults to all sites
 
   Examples:
 
