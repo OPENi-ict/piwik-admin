@@ -58,7 +58,8 @@ $  node lib/main.js reset --help
   Options:
 
     -h, --help            output usage information
-    -s, --sites [logins]  Which sites to reset, if not specified it defaults to all sites
+    -s, --sites [logins]  Which sites to reset,
+                          if not specified it defaults to all sites
 
   Examples:
 
