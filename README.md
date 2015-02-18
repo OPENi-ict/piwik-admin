@@ -22,6 +22,8 @@ $ node lib/main.js --help
     -V, --version  output the version number
 ````
 
+### Copy Dashboard Across Users
+
 ````
 $ node lib/main.js copy --help
 
@@ -42,6 +44,8 @@ $ node lib/main.js copy --help
     $ copy -t admin -i test@openi.com
     $ copy -t admin -u test@openi.com
 ````
+
+### Reset Dashboard Data
 
 ````
 $  node lib/main.js reset --help
