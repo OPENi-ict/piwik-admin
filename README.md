@@ -1,9 +1,9 @@
-There are some important tasks that need to be carried out when working with Piwik (particularly when developing against it), such as
+There are some important tasks that need to be carried out when working with [Piwik](http://piwik.org/) (particularly when developing against it), such as
 
 * Clearing report data from the UI
 * Setting a dashboard layout for all users, or a subset
 
-This module provides a CLI (thanks to Commander!) which simplifies these tasks
+This module provides a CLI (thanks to [Commander](https://www.npmjs.com/package/commander)!) which simplifies these tasks
 
 ````
 $ node lib/main.js --help
