@@ -1,0 +1,17 @@
+{
+  "name": "piwik-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Philip O'Brien",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "commander": "^2.6.0",
+    "lodash": "^3.1.0",
+    "mysql": "^2.5.4"
+  }
+}
