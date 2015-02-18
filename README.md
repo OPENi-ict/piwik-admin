@@ -6,7 +6,7 @@ There are some important tasks that need to be carried out when working with <a 
 This module provides a CLI (thanks to <a href="https://www.npmjs.com/package/commander" target="_blank">Commander</a>!) which simplifies these tasks.
 
 It was developed to assist with work being carried out in <a href="http://www.openi-ict.eu/" target="_blank">the OPENi project</a>.
-For our use case each user of the platform has their own site, the name of which is set to their login name, e.g. *user@openi.com*.
+For our use case each user of the platform has their own site, the name of which is set to their login name, e.g. *user<span>@openi.com*.
 
 ````
 $ node lib/main.js --help
