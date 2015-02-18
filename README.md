@@ -63,6 +63,6 @@ $  node lib/main.js reset --help
 
   Examples:
 
-    $ reset -s all
+    $ reset
     $ reset -s user1@openi.com,user2@openi.com
 ````
