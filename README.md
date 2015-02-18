@@ -8,6 +8,23 @@ This module provides a CLI (thanks to <a href="https://www.npmjs.com/package/com
 It was developed to assist with work being carried out in <a href="http://www.openi-ict.eu/" target="_blank">the OPENi project</a>.
 For our use case each user of the platform has their own site, the name of which is set to their login name, e.g. *user<span>@openi.com*.
 
+### Config
+Create a config file `config.js` with the following structure, including your Piwik adming token, and the corresponding Piwik domain
+
+```json
+var config = {};
+
+config.host = 'localhost';
+config.user = 'piwik';
+config.password = 'password';
+config.database = 'plugins';
+config.multipleStatements = 'true';
+
+module.exports = config;
+```
+
+### Usage
+
 ````
 $ node lib/main.js --help
 
