@@ -11,7 +11,7 @@ For our use case each user of the platform has their own site, the name of which
 ### Config
 Create a config file `config.js` with the following structure
 
-```json
+````
 var config = {};
 
 config.host = 'localhost';
@@ -21,7 +21,7 @@ config.database = 'plugins';
 config.multipleStatements = 'true';
 
 module.exports = config;
-```
+````
 
 ### Usage
 
