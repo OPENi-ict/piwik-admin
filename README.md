@@ -6,7 +6,7 @@ There are some important tasks that need to be carried out when working with Piw
 This module provides a CLI (thanks to Commander!) which simplifies these tasks
 
 ```shell
-node lib/main.js --help
+$ node lib/main.js --help
 
  Usage: main [options] [command]
 
