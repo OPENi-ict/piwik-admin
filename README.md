@@ -8,7 +8,7 @@ This module provides a CLI (thanks to Commander!) which simplifies these tasks
 ````
 $ node lib/main.js --help
 
- Usage: main [options] [command]
+  Usage: main [options] [command]
 
 
   Commands:
@@ -20,6 +20,43 @@ $ node lib/main.js --help
 
     -h, --help     output usage information
     -V, --version  output the version number
+````
 
+````
+$ node lib/main.js copy --help
 
+  Usage: copy [options]
+
+  copy dashboard template across all users
+
+  Options:
+
+    -h, --help              output usage information
+    -t, --template [login]  Which dashboard template to use
+    -u, --users [logins]    Which users to apply template to
+    -i, --ignore [logins]   Which users to ignore
+
+  Examples:
+
+    $ copy -t admin
+    $ copy -t admin -i test@openi.com
+    $ copy -t admin -u test@openi.com
+````
+
+````
+$  node lib/main.js reset --help
+
+  Usage: reset [options]
+
+  reset report data for all sites
+
+  Options:
+
+    -h, --help            output usage information
+    -s, --sites [logins]  Which sites to reset
+
+  Examples:
+
+    $ reset -s all
+    $ reset -s user1@openi.com,user2@openi.com
 ````
