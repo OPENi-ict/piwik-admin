@@ -11,6 +11,19 @@ For our use case each user of the platform has their own site, the name of which
 ### Config
 The provided config file loads some sensible defaults, but for the piwik password, user, and database it first tries to load them from your local environment variables.
 
+````
+var config = {};
+
+config.piwikSQL = {};
+config.piwikSQL.host = 'localhost';
+config.piwikSQL.user = process.env.PIWIKSQL_USER || 'piwik';
+config.piwikSQL.password = process.env.PIWIKSQL_PASSWORD || 'password';
+config.piwikSQL.database = process.env.PIWIKSQL_DATABASE || 'piwik';
+config.piwikSQL.multipleStatements = 'true';
+
+module.exports = config;
+````
+
 ### Usage
 
 ````
