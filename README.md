@@ -61,9 +61,13 @@ $ node lib/main.js copy --help
     -i, --ignore [logins]   Which users to ignore
 
   Examples:
-
+   copy admin dashboard to all users
     $ copy -t admin
+
+   copy admin dashboard to test@openi.com and test2@openi.com
     $ copy -t admin -u test@openi.com,test2@openi.com
+
+   copy admin dashboard to all except test@openi.com
     $ copy -t admin -i test@openi.com
 ````
 
