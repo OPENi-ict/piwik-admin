@@ -9,19 +9,7 @@ It was developed to assist with work being carried out in <a href="http://www.op
 For our use case each user of the platform has their own site, the name of which is set to their login name, e.g. *user<span>@openi.com*.
 
 ### Config
-Create a config file `config.js` with the following structure
-
-````
-var config = {};
-
-config.host = 'localhost';
-config.user = 'piwik';
-config.password = 'password';
-config.database = 'plugins';
-config.multipleStatements = 'true';
-
-module.exports = config;
-````
+The provided config file loads some sensible defaults, but for the piwik password, user, and database it first tries to load them from your local environment variables.
 
 ### Usage
 

@@ -4,7 +4,6 @@ logs
 *.log
 *.sql
 *.sqlite
-config.js
 # OS generated files #
 ######################
 .DS_Store
