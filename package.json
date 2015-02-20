@@ -26,5 +26,10 @@
     "commander": "^2.6.0",
     "lodash": "^3.1.0",
     "mysql": "^2.5.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.2",
+    "jshint-stylish": "^1.0.0"
   }
 }
